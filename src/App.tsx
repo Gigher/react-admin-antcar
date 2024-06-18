@@ -13,5 +13,5 @@ import { AutoCreate } from "./components/AutoCreate";
 
 
 export const App = () => <Admin dataProvider={dataProvider}>
-  <Resource name="autos" list={AutoList} edit={AutoEdit} create={AutoCreate}  show={ShowGuesser} />
+  <Resource name="autos" list={AutoList} edit={AutoEdit} create={AutoCreate} show={ShowGuesser} />
 </Admin>;

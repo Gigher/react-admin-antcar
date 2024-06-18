@@ -2,7 +2,7 @@ import { ArrayField, BooleanField, ChipField, Datagrid, DateField, ImageField, L
 
 export const AutoList = () => (
     <List>
-        <Datagrid rowClick="edit">
+        <Datagrid rowClick="show">
             <TextField source="name" />
             <ArrayField source="images">
                 {/* {images.map((img) => {
